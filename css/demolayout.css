@@ -9,7 +9,8 @@ body{
     background-color: #ffffff;
     color: #205a86;
     background-image: url("../images/demo.png");
-    background-repeat: repeat;/* repeat no-repeat  repeat-x repeat-y*/
+    background-repeat: no-repeat;/* repeat no-repeat  repeat-x repeat-y*/
+    background-size: cover;
 }
 /*
     ../ đi lên thư mục
