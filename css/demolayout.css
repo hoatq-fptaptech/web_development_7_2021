@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #205a86;
+    background-image: url("../images/demo.png");
+    background-repeat: repeat;/* repeat no-repeat  repeat-x repeat-y*/
+}
+/*
+    ../ đi lên thư mục
+    tên thư mục/  -> đi sang thư mục
+    tên ảnh  -> gọi đến file ảnh
+ */
+.section{
+    float:left;
+    width: 100%;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.header{
+    background-color: green;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.nav{
+    background-color: aquamarine;
+    margin-top: 34px;
+}
+.main{
+}
+.footer{
+    background-color: orange;
+}
+h1{
+    background-color: red;
+}
+.content{
+    float: left;
+    width: 66.67%;
+}
+.sidebar{
+    float: left;
+    width: 33.33%;
+}
