@@ -44,6 +44,7 @@ body{
     top:0;
     left: 0;
 }
+.section.header{}
 .nav{
     background-color: aquamarine;
     margin-top: 34px;
